@@ -6,3 +6,12 @@
   types: [javascript]
   require_serial: false
   minimum_pre_commit_version: '0'
+
+- id: npm-run-lint
+  name: 'npm run lint'
+  entry: npm-run-lint.sh
+  files: ''
+  language: script
+  types: [javascript]
+  require_serial: false
+  minimum_pre_commit_version: '0'
